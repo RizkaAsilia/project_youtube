@@ -4,13 +4,4 @@ api_version: 1
 handlers:
 
 - url: /.*
-  static_dir: css
-
-- url: /.*
-  static_dir: js
-  
-- url: /.*
-  static_dir: tpl
-  
-- url: /.*
   script: index.php
