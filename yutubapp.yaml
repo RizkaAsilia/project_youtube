@@ -5,3 +5,9 @@ handlers:
 
 - url: /.*
   script: index.php
+  
+- url: /.*
+  script: style.css
+  
+- url: /.*
+  script: app.js
