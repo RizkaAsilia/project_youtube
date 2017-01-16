@@ -6,8 +6,8 @@ handlers:
 - url: /.*
   script: index.php
   
-- url: /.*
+- url: .*
   script: style.css
   
-- url: /.*
+- url: .*
   script: app.js
