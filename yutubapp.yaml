@@ -7,7 +7,7 @@ handlers:
   script: index.php
   
 - url: /.*
-  static_dir: style.css
+  script: style.css
   
 - url: /.*
-  static_dir: app.js
+  script: app.js
